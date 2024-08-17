@@ -57,6 +57,8 @@ aws cloudformation delete-stack --stack-name udagram-iac-network --region us-wes
 aws cloudformation delete-stack --stack-name udagram-iac-server --region us-west-2
 ```
 
+URL: http://udagra-webap-a9aqbawofr68-259887394.us-west-2.elb.amazonaws.com/
+
 ## Notes
 - Adjust the parameters in `parameters/network-parameters.json` and `parameters/udagram-parameters.json` as necessary.
 - Ensure the scripts are executable and AWS CLI commands are correctly formatted.
